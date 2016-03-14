@@ -1,10 +1,10 @@
+from pprint import pprint
 import urllib2, httplib
 import unicodedata as ucode
 import codecs
 import datetime
 import gzip
 import StringIO
-import pprint
 import json 
 from bs4 import BeautifulSoup as bs
 from cookielib import CookieJar
@@ -60,6 +60,21 @@ months = {
 		'Oct': '10',
 		'Nov': '11',
 		'Dec': '12'
+}
+
+months_full = {
+		'January': '01',
+		'February': '02',
+		'March': '03',
+		'April': '04',
+		'May': '05',
+		'June': '06',
+		'July': '07',
+		'August': '08',
+		'September': '09',
+		'October': '10',
+		'November': '11',
+		'December': '12'
 }
 #}}}1
 class contentParser:
@@ -156,34 +171,27 @@ class contentParser:
 	def parse_yahoo(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		article = text.body.find('div', attrs={'class': 'yom-art-content'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('cite', attrs={'class': 'top-line'})
+		if _date:
+			_date = _date.find('abbr').get_text()
+			print _date
 		return res.encode('utf-8') 
 
 	def parse_nyt(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		article = text.body.find('div', attrs={'id': 'story-body'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('time', attrs={'class': 'dateline'})
+		if _date:
+			res = _date["datetime"]
 		return res.encode('utf-8') 
 
 	def parse_wp(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		article = text.body.find('article', attrs={'itemprop': 'articleBody'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('span', attrs={'class': 'pb-timestamp'})
+		if _date:
+			_date = _date["content"].split('T')
+			res = _date[0]
 		return res.encode('utf-8') 
 
 	def parse_shanghaid(self, url):
@@ -198,89 +206,74 @@ class contentParser:
 		gzipper = gzip.GzipFile(fileobj=data)
 		text = gzipper.read()
 		text = bs(text, 'html.parser')
-		article = text.find('div', attrs={'class': 'detail_content'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.find('div', attrs={'class': 'detail_byline border_bottom'}).get_text()
+		if _date:
+			_date = re.search("[a-zA-Z]*\s\d{1,2}\,\s\d{4}", _date).group()
+			_date = _date.split(' ')
+			res = _date[2] + '-' + months_full[_date[0]] + '-' + _date[1].strip(',')
 		return res.encode('utf-8')
 
 	def parse_jpt(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		article = text.body.find('div', attrs={'id': 'jtarticle'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('li', attrs={'class': 'post_time'})
+		if _date:
+			_date = _date.find('time', attrs={'pubdate': ''})
+			_date = _date["datetime"]
+			res = _date.split('T')[0]
 		return res.encode('utf-8') 
 
 	def parse_nbc(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		article = text.body.find('div', attrs={'itemprop': 'articleBody'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		#_date = text.body.find('div', attrs={'class': 'flag_article-wrapper-last'})
+		_date = text.body.find('time', attrs={'class': 'timestamp_article'})
+		if _date:
+			res = _date["datetime"].split('T')[0]
 		return res.encode('utf-8') 
 
 	def parse_bbc(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		article = text.body.find('div', attrs={'property': 'articleBody'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('div', attrs={'class': 'date date--v2'}).get_text()
+		if _date:
+			_date = _date.split(' ')
+			res = _date[2] + '-' + months_full[_date[1]] + '-' + _date[0]
 		return res.encode('utf-8') 
 
 	def parse_fox(self, url):
 		res = ''
 		text = self.parse_init_off(url) 
-		article = text.body.find('div', attrs={'itemprop': 'articleBody'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('time', attrs={'itemprop': 'datePublished'})
+		if _date:
+			res = _date["datetime"].split('T')[0]
 		return res.encode('utf-8') 
 
 	def parse_nhk(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		article = text.body.find('div', attrs={'class': 'content'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('time', attrs={'class': 'dt_mbdcby'})
+		if _date:
+			res = _date["datetime"].split('T')[0]
 		return res.encode('utf-8') 
 
 	def parse_cndaily(self, url):
 		res = ''
 		text = self.parse_init_off(url) 
-		article = text.find('div', attrs={'id': 'Content'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.find('span', attrs={'class': 'greyTxt6 block mb15'}).get_text()
+		if _date:
+			res = _date.split(' ')[2]
 		return res.encode('utf-8') 
 
 	def parse_alj(self, url):
 		res = ''
 		text = self.parse_init_off(url) 
-		article = text.body.find('div', attrs={'id': 'article-body'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date =  text.body.find_all('time')
+		if _date:
+			for _d in _date:
+				tmp = re.search("\d{1,2}\s[A-z][a-z][a-z]\s\d{4}", _d["datetime"]).group()
+				tmp = tmp.split(' ')
+				res = tmp[2] + '-' + months[tmp[1]] + '-' + tmp[0]
 		return res.encode('utf-8') 
 
 	def parse_moscowt(self, url):
@@ -297,12 +290,9 @@ class contentParser:
 	def parse_guardian(self, url):
 		res = ''
 		text = self.parse_init_off(url) 
-		article = text.body.find('div', attrs={'itemprop': 'articleBody'})
-		if article:
-			article = article.find_all("p")
-			for p in article:
-				res += p.get_text()
-				res += ' '
+		_date = text.body.find('time', attrs={'itemprop': 'datePublished'})
+		if _date:
+			res = _date["datetime"].split('T')[0]
 		return res.encode('utf-8') 
 
 def main():

@@ -1,0 +1,11 @@
+google-api-python-client==1.4.2
+beautifulsoup4==4.4.1
+httplib2==0.9.2
+mysql-connector-python-rf
+--allow-external mysql-connector-python
+simplejson==3.8.1
+html5lib
+nltk>=3.0
+TwitterSearch
+certifi
+powerline-status

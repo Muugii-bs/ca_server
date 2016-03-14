@@ -1,0 +1,6 @@
+db/*.sql
+features/
+scripts/backup/
+scripts/libsvm-master/
+scripts/results/
+venv/

@@ -12,7 +12,6 @@ import sys
 import mysql.connector as db
 import os
 import re
-#{{{1	
 db_config = {
 		'user':								'root',
 		'password':						'root',
@@ -76,7 +75,6 @@ months_full = {
 		'November': '11',
 		'December': '12'
 }
-#}}}1
 class contentParser:
 	
 	def __init__(self):
@@ -84,55 +82,62 @@ class contentParser:
 
 	def parse(self):
 		conn = db.connect(**db_config)
+		conn1 = db.connect(**db_config)
 		cursor = conn.cursor()
-		#cursor.execute('SELECT * FROM ca_analyze WHERE date_orig IS NULL OR date_orig = "0000-00-00"')
-		#for row in cursor:
-		#try:
-		#url = row[columns['url']]
-		url = sys.argv[1]
-		if 'video' in url:
-					#continue
-					print "video"
-		elif 'image' in url:
-					#continue
-					print "image"
-		elif 'www.pravdareport.com' in url:
-					res = self.parse_pravda(url)
-		elif 'www.rt.com' in url:
-					res = self.parse_rt(url)
-		elif 'www.washingtonpost.com' in url:
-					res = self.parse_wp(url)
-		elif 'www.nytimes.com' in url:
-					res = self.parse_nyt(url)
-		elif 'www.japantimes.co.jp' in url:
-					res = self.parse_jpt(url)
-		elif 'www.nbcnews.com' in url:
-					res = self.parse_nbc(url)
-		elif 'www.theguardian.com' in url:
-					res = self.parse_guardian(url)
-		elif 'www.bbc.com' in url:
-					res = self.parse_bbc(url)
-		elif 'news.yahoo.com' in url:
-					res = self.parse_yahoo(url)
-		elif 'www.foxnews.com' in url:
-					res = self.parse_fox(url)
-		elif 'www3.nhk.or.jp' in url:
-					res = self.parse_nhk(url)
-		elif 'www.chinadaily.com.cn' in url:
-					res = self.parse_cndaily(url)
-		elif 'www.aljazeera.com' in url:
-					res = self.parse_alj(url)
-		elif 'www.moscowtimes.com' in url:
-					res = self.parse_moscowt(url)
-		elif 'www.shanghaidaily.com' in url:
-					res = self.parse_shanghaid(url)
-		#if res:
-			#try:
-		query = 'UPDATE ca_analyze SET url=%s WHERE id=%s'		
-		#cursor.execute(query, (res, row[columns['id']]) 
-		print res
-		
+		cursor1 = conn1.cursor()
+		cursor.execute('SELECT * FROM ca_analyze WHERE date_orig IS NULL or date_orig = "0000-00-00"')
+		for row in cursor.fetchall():
+			url = row[columns['url']]
+			res = ''
+			try:
+				if 'video' in url:
+							continue
+				elif 'image' in url:
+							continue
+				elif 'www.pravdareport.com' in url:
+							res = self.parse_pravda(url)
+				elif 'www.rt.com' in url:
+							res = self.parse_rt(url)
+				elif 'www.washingtonpost.com' in url:
+							res = self.parse_wp(url)
+				elif 'www.nytimes.com' in url:
+							res = self.parse_nyt(url)
+				elif 'www.japantimes.co.jp' in url:
+							res = self.parse_jpt(url)
+				elif 'www.nbcnews.com' in url:
+							res = self.parse_nbc(url)
+				elif 'www.theguardian.com' in url:
+							res = self.parse_guardian(url)
+				elif 'www.bbc.com' in url:
+							res = self.parse_bbc(url)
+				elif 'news.yahoo.com' in url:
+							res = self.parse_yahoo(url)
+				elif 'www.foxnews.com' in url:
+							res = self.parse_fox(url)
+				elif 'www3.nhk.or.jp' in url:
+							res = self.parse_nhk(url)
+				elif 'www.chinadaily.com.cn' in url:
+							res = self.parse_cndaily(url)
+				elif 'www.aljazeera.com' in url:
+							res = self.parse_alj(url)
+				elif 'www.moscowtimes.com' in url:
+							res = self.parse_moscowt(url)
+				elif 'www.shanghaidaily.com' in url:
+							res = self.parse_shanghaid(url)
+				if res:
+					query = "UPDATE ca_analyze SET date_orig='%s' WHERE id=%d" % (res, row[columns['id']])
+					print query
+					cursor1.execute(query) 
+					try:
+						print ""
+					except Exception, e:
+						print(e)
+			except Exception, e:
+				print(e)
+		cursor.close()
+		cursor1.close()
 		conn.close()
+		conn1.close()
 
 	def parse_init(self, url):
 		cj = CookieJar()
@@ -163,7 +168,7 @@ class contentParser:
 		_date = text.body.find('div', attrs={'class': 'article__date'})
 		_date = _date.find('time', attrs={'class': 'date_article-header'}).get_text()
 		if _date:
-			_date = re.search("\d{1,2}\s[A-z][a-z][a-z]\,\s\d{4}", _date).group()
+			_date = re.search("\d{1,2}\s[A-Z][a-z][a-z]\,\s\d{4}", _date).group()
 			_date = _date.split(' ')
 			res = _date[2] + '-' + months[_date[1].replace(',', '')] + '-' + _date[0]
 		return res.encode('utf-8') 
@@ -171,10 +176,13 @@ class contentParser:
 	def parse_yahoo(self, url):
 		res = ''
 		text = self.parse_init(url) 
-		_date = text.body.find('cite', attrs={'class': 'top-line'})
+		_date = text.body.find('cite', attrs={'class': 'byline vcard top-line'})
 		if _date:
-			_date = _date.find('abbr').get_text()
-			print _date
+			_date = _date.find_all('abbr')
+			for _d in _date:
+				tmp = re.search("[A-Z][a-z]+\s\d{1,2}\,\s\d{4}", _d.get_text()).group()
+				tmp = tmp.split(' ')
+				res = tmp[2] + '-' + months_full[tmp[0]] + '-' + tmp[1].strip(',')
 		return res.encode('utf-8') 
 
 	def parse_nyt(self, url):

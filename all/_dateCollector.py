@@ -16,7 +16,7 @@ db_config = {
 		'user':								'root',
 		'password':						'root',
 		'host':								'127.0.0.1',
-		'port':								'8889',
+		'port':								'3306',
 		'database':						'cnl',
 		'raise_on_warnings': 	False,
 		'autocommit': 				True,
@@ -128,10 +128,6 @@ class contentParser:
 					query = "UPDATE ca_analyze SET date_orig='%s' WHERE id=%d" % (res, row[columns['id']])
 					print query
 					cursor1.execute(query) 
-					try:
-						print ""
-					except Exception, e:
-						print(e)
 			except Exception, e:
 				print(e)
 		cursor.close()

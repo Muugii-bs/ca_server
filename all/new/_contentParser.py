@@ -41,9 +41,11 @@ class contentParser:
 		self.content = ifile
 		name = ifile.split('_')
 		self.content_id = name[1]
+                print name[1]
 		self.header = {'User-Agent': 'Mozilla/5.0'}
 
 	def parse(self):
+                print self.content_id
 		conn = db.connect(**db_config)
 		cursor = conn.cursor()
 		with codecs.open(self.content, 'r', encoding='utf-8') as fp:
@@ -136,20 +138,22 @@ class contentParser:
                                             if res:
                                                     try:
                                                         #ucode.normalize('NFKD', res).encode('ascii','ignore')
-                                                        print url
-                                                        print self.content_id
-                                                        print res
+                                                        #print url
+                                                        #print self.content_id
+                                                        #print res
                                                         query = ("INSERT INTO ca_analyze "
-                                                                                        "(attack_id, target, date, author, attack_type, attack_category, target_category, country, flag, count, content, media, url, date_orig, new_flag) "
-                                                                                        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 1) "
-                                                                                        "ON DUPLICATE KEY UPDATE attack_id=%s, target=%s, date=%s, author=%s, attack_type=%s, attack_category=%s, target_category=%s, country=%s, "
-                                                                                        "flag=%s, count=%s, content=%s, media=%s, url=%s, date_orig=%s, new_flag=1"
-                                                                                        )
+                                                            "(attack_id, target, date, author, attack_type, attack_category, target_category, country, flag, count, content, media, url, date_orig, new_flag) "
+                                                            "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, 1) "
+                                                            "ON DUPLICATE KEY UPDATE attack_id=%s, target=%s, date=%s, author=%s, attack_type=%s, attack_category=%s, target_category=%s, country=%s, "
+                                                            "flag=%s, count=%s, content=%s, media=%s, url=%s, date_orig=%s, new_flag=1"
+                                                            )
                                                         values = (self.content_id, target, my_date, author, attack_type, attack_category, target_category, country, my_flag, my_count, res, media, url, date_orig, self.content_id, target, my_date, author, attack_type, attack_category, target_category, country, my_flag, my_count, res, media, url, date_orig)
                                                         cursor.execute(query, values) 
                                                     except Exception, e:
+                                                            print self.content_id
                                                             print(e)
 					except Exception, e:
+                                            print self.content_id
 					    print(e)
 		
 		conn.close()

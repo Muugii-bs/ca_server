@@ -1,4 +1,5 @@
 db/*.sql
+db/*.csv
 features/
 scripts/backup/
 scripts/libsvm-master/
@@ -15,6 +16,8 @@ scripts/results//*
 scripts/results_rinko/*
 all/imported/*
 all/log_4_9
+all/all_*
+all/pred/pred_*
 all/log
 all/*.sh
 all/*_exec

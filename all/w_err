@@ -1,8 +1,7 @@
-WARNING:root:No module named locked_file
 Traceback (most recent call last):
-  File "/home/muugii/ca_prediction/venv/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/__init__.py", line 38, in autodetect
-    from . import file_cache
-  File "/home/muugii/ca_prediction/venv/local/lib/python2.7/site-packages/googleapiclient/discovery_cache/file_cache.py", line 32, in <module>
-    from oauth2client.locked_file import LockedFile
-ImportError: No module named locked_file
+  File "_news_collector_ext.py", line 161, in <module>
+    main()
+  File "_news_collector_ext.py", line 141, in main
+    cse_num = int(sys.argv[1])
+IndexError: list index out of range
 mv: cannot stat ‘all_*’: No such file or directory

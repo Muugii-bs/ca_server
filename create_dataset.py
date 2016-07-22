@@ -2,6 +2,7 @@ import sys
 import json
 import re
 import operator
+import numpy as np
 from itertools import izip
 import mysql.connector as db
 from datetime import datetime
@@ -79,7 +80,7 @@ def create_dataset():
         tmp[7] = float(SCORES['availability_impact'][row[7]])
         dataset.append(tmp)
         labels.append(fetch_label(row[8]))
-    return dataset, labels
+    return np.array(dataset), np.(labels)
 
 def main():
     load_score_master()

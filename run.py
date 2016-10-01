@@ -17,13 +17,13 @@ import tensorflow as tf
 flags = tf.app.flags
 FLAGS = flags.FLAGS
 flags.DEFINE_float('learning_rate', 0.01, 'Initial learning rate.')
-flags.DEFINE_integer('max_steps', 2000, 'Number of steps to run trainer.')
-flags.DEFINE_integer('hidden1', 128, 'Number of units in hidden layer 1.')
-flags.DEFINE_integer('hidden2', 32, 'Number of units in hidden layer 2.')
-flags.DEFINE_integer('batch_size', 100, 'Batch size.  '
+flags.DEFINE_integer('max_steps', 4000, 'Number of steps to run trainer.')
+flags.DEFINE_integer('hidden1', 256, 'Number of units in hidden layer 1.')
+flags.DEFINE_integer('hidden2', 128, 'Number of units in hidden layer 2.')
+flags.DEFINE_integer('batch_size', 80, 'Batch size.  '
                      'Must divide evenly into the dataset sizes.')
 flags.DEFINE_string('train_dir', 'data', 'Directory to put the training data.')
-
+flags.DEFINE_string('num_class', 2, 'The number of classes.')
 
 def placeholder_inputs(batch_size):
   """Generate placeholder variables to represent the input tensors.
@@ -85,18 +85,26 @@ def do_eval(sess,
   true_count = 0  # Counts the number of correct predictions.
   steps_per_epoch = data_set.num_examples // FLAGS.batch_size
   num_examples = steps_per_epoch * FLAGS.batch_size
+  recall_all = {}
   for step in xrange(steps_per_epoch):
     feed_dict = fill_feed_dict(data_set,
                                metrics_placeholder,
                                labels_placeholder)
     res = sess.run(eval_correct, feed_dict=feed_dict)
     #true_count += sess.run(eval_correct, feed_dict=feed_dict)
-    print(recall(res[1].reshape(1, len(res[1]))[0], res[2]))
-    exit()
+    tmp = recall(res[1].reshape(1, len(res[1]))[0], res[2])
+    for i in range(0,FLAGS.num_class):
+       if not i in recall_all: recall_all[i] = {}
+       for j in range(0,FLAGS.num_class):
+           if not j in recall_all[i]: recall_all[i][j] = 0
+           if not 'all' in recall_all[i]: recall_all[i]['all'] = 0
+           recall_all[i][j] += tmp[i][j]
+       recall_all[i]['all'] += tmp[i]['all']
     true_count += res[0]
   precision = true_count / num_examples
   print('  Num examples: %d  Num correct: %d  Precision @ 1: %0.04f' %
         (num_examples, true_count, precision))
+  print(' Recall: ', recall_all)
 
 def recall(y, label):
     res = {}
@@ -191,12 +199,14 @@ def run_training():
                 labels_placeholder,
                 data_sets.train)
         # Evaluate against the validation set.
+        """
         print('Validation Data Eval:')
         do_eval(sess,
                 eval_correct,
                 metrics_placeholder,
                 labels_placeholder,
                 data_sets.validation)
+        """
         # Evaluate against the test set.
         print('Test Data Eval:')
         do_eval(sess,

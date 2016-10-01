@@ -20,6 +20,7 @@ conn = db.connect(**db_config)
 cursor = conn.cursor()
 
 SCORES = {}
+NUM_CLASSES = 2
 
 def load_score_master():
     query = "SELECT metric_name, level_name, danger_level FROM vuln_score_new"
@@ -46,13 +47,21 @@ def fetch_label(_text):
     """
     label: [availability, confidentiality, integrity, authenticity]
     """
-    label_map = {
-        'webapps': 0,
-        'dos'    : 1,
-        'local'  : 2,
-        'remote' : 3
-    }
-    label = [0] * 4
+    if NUM_CLASSES == 2:
+        label_map = {
+            'webapps': 0,
+            'dos'    : 1,
+            'local'  : 1,
+            'remote' : 0
+        }
+    elif NUM_CLASSES == 4:
+        label_map = {
+            'webapps': 0,
+            'dos'    : 1,
+            'local'  : 2,
+            'remote' : 3
+        }
+    label = [0] * NUM_CLASSES 
     if _text in label_map:
         label[label_map[_text]] = 1
     return label 

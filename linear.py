@@ -16,7 +16,7 @@ import math
 import tensorflow as tf
 
 # The MNIST dataset has 10 classes, representing the digits 0 through 9.
-NUM_CLASSES = 4
+NUM_CLASSES = 2
 
 # The MNIST images are always 28x28 pixels.
 NUM_METRICS = 8

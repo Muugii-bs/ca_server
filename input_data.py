@@ -71,7 +71,7 @@ def read_data_sets(train_dir):
   numpy.random.shuffle(all_data) 
 
   TRAIN_CNT = 1806
-  VALIDATION_SIZE = 362
+  VALIDATION_SIZE = 0#362
   train_metrics, train_labels = numpy.split(all_data[:TRAIN_CNT], [8], 1)
   train_labels                = train_labels.reshape(1, len(train_labels))[0].astype(int)
   test_metrics,  test_labels  = numpy.split(all_data[TRAIN_CNT:], [8], 1)

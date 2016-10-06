@@ -3,3 +3,7 @@ scikit-learn
 *.pyc
 RAKE-tutorial
 venv
+html/*.txt 
+html/storage/*.txt 
+html/storage/empty/ 
+html/storage/imported/ 

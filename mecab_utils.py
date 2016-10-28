@@ -40,7 +40,8 @@ def get_filtered_tokens(text):
             word = desc[-3]
         if not desc[:2] in cat_white_list: continue
         if word in term_black_list: continue
-        tokens.append(word)
+        word = mojimoji.zen_to_han(unicode(word, 'utf-8'), kana=False)
+        tokens.append(word.lower())
     return tokens
 
 def load_senti_noun(res):
@@ -48,7 +49,7 @@ def load_senti_noun(res):
         'ポジ': 1,
         'ネガ': -1
     }
-    with open('senti_noun.txt', 'r') as fp:
+    with open('senti_noun.tsv', 'r') as fp:
         for num,line in enumerate(fp):
             line = line.rstrip()
             line = line.split('\t')
@@ -57,6 +58,12 @@ def load_senti_noun(res):
             word  = line[1].split()[0]
             if word in res: continue 
             res[word] = senti_map[label]
+    return res
+
+def load_senti_en(res):
+    with open('lexicon.dict', 'r') as fp:
+        content = json.load(fp)
+    res.update(content)
     return res
 
 def load_senti_verb():
@@ -72,14 +79,16 @@ def load_senti_verb():
         '?p?e': 1,
         '?p': 1
     }
-    with open('senti_verb.txt', 'r') as fp:
+    with open('senti_verb.tsv', 'r') as fp:
         for num,line in enumerate(fp):
             line = line.rstrip()
             line = line.split('\t')
             word = mojimoji.zen_to_han(unicode(line[0], 'utf-8'), kana=False)
+            word = word.lower()
             if word in res: continue
             if not line[1] in senti_map: continue
             label = senti_map[line[1]]
             res[word] = label
     res = load_senti_noun(res)
+    res = load_senti_en(res)
     return res

@@ -1,0 +1,13 @@
+### Elasticsearch ####
+ - index: ca
+ - type : tweets
+ - latest: 2010-4-30
+ - earliest: 2008-10-25
+ - total number: 158246380
+ - ca_timeline: http://www.security-next.com/category/cat191/cat27/page/40
+
+### Sentiment dictionary ###
+ - author: Hiroya Takamura, Takashi Inui, Manabu Okumura,
+ - title: "Extracting Semantic Orientations of Words using Spin Model", 
+ - published_at: In Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL2005) , 
+ - other: pages 133--140, 2005.

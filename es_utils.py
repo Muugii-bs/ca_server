@@ -46,16 +46,18 @@ def es_search(field, keyword, start, end):
     keyword = keyword.split('|')
     if len(keyword) > 0:
         for user in keyword:
-            query['query']['bool']['must'][1]['bool']['should'].append({"match_phrase": {"user": user,}})
+            query['query']['bool']['must'][1]['bool']['should'].append({"match_phrase": {field: user,}})
+    else: 
+         query['query']['bool']['must'][1]['bool']['should'].append({"match_phrase": {field: keyword,}})
     print json.dumps(query)
     return es_query(query)
 
 def es_aggs(field, keyword, start, end):
     query = {
-        "size": 100,
+        "size": 0,
         "query": {
-            "match_phrase": {
-                field: keyword,
+            "bool": {
+                "should": []
             }
         },
         "aggs": {
@@ -79,4 +81,11 @@ def es_aggs(field, keyword, start, end):
             }
         }
     }
+    keyword = keyword.split('|')
+    if len(keyword) > 0:
+        for user in keyword:
+            query['query']['bool']['should'].append({"match_phrase": {field: user,}})
+    else:
+        query['query']['bool']['should'].append({"match_phrase": {field: keyword,}})
+    print json.dumps(query)
     return es_query(query)

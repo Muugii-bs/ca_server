@@ -2,6 +2,7 @@ from utils import get_tokens
 
 import pymysql as db
 import numpy as np
+import pickle
 import json
 
 db_config = {
@@ -38,25 +39,25 @@ def load_keyword_line(file_name):
     with open(file_name, 'r') as fp:
         for num,line in enumerate(fp):
             if num == 0: continue 
-            line = line.split()
-            keyword_line[line[0]] = ','.join(line[1:])
+            line = line.rstrip().split()
+            keyword_line[line[0]] = np.asarray([float(x) for x in line[1:]])
     return keyword_line
 
 def insert_vuln_line(keyword_line):
-    sql = 'SELECT id, summary FROM vuln_analyze WHERE explpoit_type IS NOT NULL'
+    res = {}
+    sql = 'SELECT id, summary FROM vuln_analyze WHERE exploit_type IS NOT NULL'
     cursor.execute(sql)
-    with open('vuln_line.txt', 'w') as fp:
+    with open('vuln_line_labeled.pickle', 'wb') as fp:
         for row in cursor:
             tokens = get_tokens(row[1])
-            vecs = [map(float, keyword_line[w].split(',')) for w in tokens]
-            vec  = np.mean(np.array(vecs), axis=0).tolist()
-            fp.write(str(row[0]) + '\t' + ','.join(map(str, vec)) + '\t')
+            vec  = np.mean([keyword_line[w] for w in tokens], axis=0) 
+            res[row[0]] = vec
+        pickle.dump(res, fp)
 
 if __name__ == '__main__':
-    keywords = jaccard()
+    #keywords = jaccard()
     #network(keywords, 'keywords.txt')
-    keyword_line = load_keyword_line('line/vec_all.txt')
-    print(keyword_line)
-    #insert_vuln_line(keyword_line)
+    keyword_line = load_keyword_line('keyword_line.txt')
+    insert_vuln_line(keyword_line)
     cursor.close()
     conn.close()

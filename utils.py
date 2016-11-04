@@ -1,4 +1,5 @@
 import nltk 
+import pickle
 
 #{{{
 black_list = [',', '.', ';', ':', '-', '~', '_', '?', '!', 'the', 'in', 
@@ -18,3 +19,15 @@ def get_tokens(text):
     tokens = list(set(tokens) - set(black_list))
     return tokens
 
+class Line:
+    
+    def __init__(self, file_name):
+        self.line = self.load_line(file_name)
+
+    def load_line(self, file_name):
+        with open(file_name, 'rb') as fp:
+            res = pickle.load(fp)
+        return res
+
+    def get_line(self, id):
+        return self.line[id]

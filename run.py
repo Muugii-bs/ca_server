@@ -4,6 +4,8 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+from config import configs
+
 import os.path
 import time
 import linear
@@ -16,14 +18,15 @@ import tensorflow as tf
 # Basic model parameters as external flags.
 flags = tf.app.flags
 FLAGS = flags.FLAGS
-flags.DEFINE_float('learning_rate', 0.01, 'Initial learning rate.')
-flags.DEFINE_integer('max_steps', 4000, 'Number of steps to run trainer.')
-flags.DEFINE_integer('hidden1', 256, 'Number of units in hidden layer 1.')
-flags.DEFINE_integer('hidden2', 128, 'Number of units in hidden layer 2.')
-flags.DEFINE_integer('batch_size', 80, 'Batch size.  '
+flags.DEFINE_float('learning_rate', configs['learning_rate'], 'Initial learning rate.')
+flags.DEFINE_integer('max_steps', configs['max_steps'], 'Number of steps to run trainer.')
+flags.DEFINE_integer('hidden1', configs['hidden1'], 'Number of units in hidden layer 1.')
+flags.DEFINE_integer('hidden2', configs['hidden2'], 'Number of units in hidden layer 2.')
+flags.DEFINE_integer('batch_size', configs['batch_size'], 'Batch size.  '
                      'Must divide evenly into the dataset sizes.')
 flags.DEFINE_string('train_dir', 'data', 'Directory to put the training data.')
-flags.DEFINE_string('num_class', 2, 'The number of classes.')
+flags.DEFINE_string('num_class', configs['classes'], 'The number of classes.')
+flags.DEFINE_string('num_factors', configs['factors'], 'The length of input vectro.')
 
 def placeholder_inputs(batch_size):
   """Generate placeholder variables to represent the input tensors.
@@ -38,7 +41,7 @@ def placeholder_inputs(batch_size):
   # Note that the shapes of the placeholders match the shapes of the full
   # image and label tensors, except the first dimension is now batch_size
   # rather than the full size of the train or test data sets.
-  metrics_placeholder = tf.placeholder(tf.float32, shape=(batch_size, 8))
+  metrics_placeholder = tf.placeholder(tf.float32, shape=(batch_size, FLAGS.num_factors))
   labels_placeholder = tf.placeholder(tf.int32, shape=(batch_size))
   return metrics_placeholder, labels_placeholder
 
@@ -109,7 +112,11 @@ def do_eval(sess,
 def recall(y, label):
     res = {}
     for i,v in enumerate(label):
-        if not v in res: res[v] = {'all':0, 0:0, 1:0, 2:0, 3:0}
+        if not v in res: 
+            t = {'all':0,}
+            for j in range(0,FLAGS.num_class):
+                t[j] = 0
+            res[v] = t
         res[v][y[i]]  += 1 
         res[v]['all'] += 1
     return res

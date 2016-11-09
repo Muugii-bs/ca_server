@@ -12,14 +12,16 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+from config import configs 
+
 import math
 import tensorflow as tf
 
 # The MNIST dataset has 10 classes, representing the digits 0 through 9.
-NUM_CLASSES = 2
+NUM_CLASSES = configs['classes']
 
 # The MNIST images are always 28x28 pixels.
-NUM_METRICS = 8
+NUM_METRICS = configs['factors']
 
 
 def inference(metrics, hidden1_units, hidden2_units):

@@ -27,7 +27,7 @@ NUM_FACTORS = configs['factors']
 
 def load_keyword_master():
     res = {}
-    with open(sys.argv[1], 'r') as fp:
+    with open('isis_diff1', 'r') as fp:
         for num,line in enumerate(fp):
             line = line.rstrip().split()
             res[line[0]] = num

@@ -68,14 +68,18 @@ class DataSet(object):
 
 def read_data_sets(train_dir):
 
-  all_data = numpy.load(train_dir + '/dataset.npy')
+  all_data  = numpy.load(train_dir + '/dataset.npy')
   numpy.random.shuffle(all_data) 
+  test_data = numpy.load(train_dir + '/testset.npy')
+  numpy.random.shuffle(test_data) 
 
-  TRAIN_CNT = int(all_data.shape[0] * 0.8)
-  VALIDATION_SIZE = 0#362
+  TRAIN_CNT = int(all_data.shape[0] * 1.0)
+  VALIDATION_SIZE = 0
   train_metrics, train_labels = numpy.split(all_data[:TRAIN_CNT], [configs['factors']], 1)
   train_labels                = train_labels.reshape(1, len(train_labels))[0].astype(int)
-  test_metrics,  test_labels  = numpy.split(all_data[TRAIN_CNT:], [configs['factors']], 1)
+  #test_metrics,  test_labels  = numpy.split(all_data[TRAIN_CNT:], [configs['factors']], 1)
+  #test_labels                 = test_labels.reshape(1, len(test_labels))[0].astype(int)
+  test_metrics,  test_labels  = numpy.split(test_data, [configs['factors']], 1)
   test_labels                 = test_labels.reshape(1, len(test_labels))[0].astype(int)
 
   validation_metrics = train_metrics[:VALIDATION_SIZE]

@@ -1,6 +1,14 @@
+db_config = {
+    'host':	    '127.0.0.1',
+    'port':	    3306,
+    'user':	    'root',
+    'password':	    'root',
+    'database':	    'cnl',
+    'autocommit':   True,
+}
 configs = {
     'classes': 4,
-    'factors': 24,
+    'factors': 8,
     'max_steps': 6000,
     'hidden1': 128,
     'hidden2': 64,

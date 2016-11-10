@@ -1,0 +1,13 @@
+*.txt
+*.json
+*.pyc
+*.tsv
+*.pickle
+line/*.txt 
+line/concatenate
+line/line
+line/normalize
+line/reconstruct
+data
+venv 
+

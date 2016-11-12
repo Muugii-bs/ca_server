@@ -12,10 +12,9 @@ conn    = db.connect(**db_config)
 cursor  = conn.cursor()
 
 def create_bulk_files():
-    sql = "SELECT id,clan,tweet FROM tweets LIMIT 10"
-    cursor.execute(sql)
-    print(es_max_id())
-    exit()
+    sql = "SELECT id,clan,tweet FROM tweets WHERE id>%s"
+    id = es_max_id()
+    cursor.execute(sql % id)
     for num,row in enumerate(cursor):
         if num % 20000 == 0:
             file_name = 'bulk_' + str(num)
@@ -64,7 +63,7 @@ def get_data(id, clan, tweet):
 
 def import_bulk_files():
     cmd = "curl -s -XPOST localhost:9200/_bulk --data-binary \"@%s\" > /dev/null"
-    cmv = "mv %s ./imported"
+    cmv = "rm %s"
     files = [f for f in os.listdir('.') if os.path.isfile(f)]
     for f in files:
         if f.startswith('bulk_'):

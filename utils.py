@@ -60,7 +60,7 @@ def es_aggs(field, keyword, start, end):
                 "aggs": {
                     "tweet_histogram": {
                         "date_histogram": {
-                            "field": "date",
+                            "field": prefix + 'created',
                             "interval": "day"
                         }
                     }
@@ -68,6 +68,7 @@ def es_aggs(field, keyword, start, end):
             }
         }
     }
+    print(json.dumps(query))
     return es_query(query)
 
 if __name__ == '__main__':

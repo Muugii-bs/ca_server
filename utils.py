@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import sys
 import json
 from elasticsearch import Elasticsearch
 es = Elasticsearch(['http://127.0.0.1:9200'])
@@ -22,64 +23,35 @@ def es_max_id():
     return int(res['aggregations']['max_id']['value'])
 
 
-def es_search(field, keyword, start, end):
+def es_search(keyword, start, end):
     query = {
         "from": 0,
         "size": 10000,
         "query": {
             "bool": {
-                "must": [
-                    {
-                        "range": {
-                            "date": {
-                                "gte": start,
-                                "lte": end
-                            }
-                         },
-                    },
-                    {
-                        "bool": {
-                           "should": []
-                        }
-                    }
+                "should": [
+                    {"bool": {"must":[{"range":{"created":{"gte": start,"lte":end}}},{"match_phrase":{"text":keyword,}}]}},
+                    {"bool": {"must":[{"range":{"re_st_created":{"gte":start,"lte":end}}},{"match_phrase":{"re_st_text":keyword,}}]}},
                 ]
             }
-        },
-        "sort": [
-            {
-                "date": { 
-                    "order": "asc" 
-                }
-            },
-            { 
-                "_score": { 
-                    "order": "desc" 
-                }
-            }
-        ]
+        }
     }
-    keyword = keyword.split('|')
-    if len(keyword) > 0:
-        for user in keyword:
-            query['query']['bool']['must'][1]['bool']['should'].append({"match_phrase": {field: user,}})
-    else: 
-         query['query']['bool']['must'][1]['bool']['should'].append({"match_phrase": {field: keyword,}})
-    print(json.dumps(query))
     return es_query(query)
 
 def es_aggs(field, keyword, start, end):
+    prefix = 're_st_' if field == 're_st' else '' 
     query = {
         "size": 0,
         "query": {
-            "bool": {
-                "should": []
+            "match_phrase": {
+                prefix + 'text': keyword
             }
         },
         "aggs": {
             "date_range": {
                 "filter": {
                     "range": {
-                        "date": {
+                        prefix + 'created': {
                             "gte": start,
                             "lte": end
                         }
@@ -96,11 +68,7 @@ def es_aggs(field, keyword, start, end):
             }
         }
     }
-    keyword = keyword.split('|')
-    if len(keyword) > 0:
-        for user in keyword:
-            query['query']['bool']['should'].append({"match_phrase": {field: user,}})
-    else:
-        query['query']['bool']['should'].append({"match_phrase": {field: keyword,}})
-    print(json.dumps(query))
     return es_query(query)
+
+if __name__ == '__main__':
+    print(json.dumps(es_search(sys.argv[1], '2016-03-10 00:00:00', '2016-11-11 00:00:00')))

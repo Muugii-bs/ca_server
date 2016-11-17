@@ -1,0 +1,2998 @@
+Step 0: loss = 0.76 (0.008 sec)
+Step 100: loss = 0.46 (0.002 sec)
+Step 200: loss = 0.31 (0.002 sec)
+Step 300: loss = 0.16 (0.002 sec)
+Step 400: loss = 0.13 (0.003 sec)
+Step 500: loss = 0.14 (0.002 sec)
+Step 600: loss = 0.12 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.09 (0.005 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.07 (0.002 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.05 (0.002 sec)
+Step 1300: loss = 0.05 (0.002 sec)
+Step 1400: loss = 0.05 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.19 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.03 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.003 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.02 (0.003 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 0: loss = 0.67 (0.009 sec)
+Step 100: loss = 0.38 (0.002 sec)
+Step 200: loss = 0.23 (0.002 sec)
+Step 300: loss = 0.20 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 'all': 38, 1: 0}, 1: {0: 0, 'all': 12, 1: 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 1, 'all': 3, 1: 2}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 'all': 37, 1: 0}, 1: {0: 0, 'all': 13, 1: 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 'all': 6, 1: 0}, 1: {0: 1, 'all': 4, 1: 3}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.003 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.47 (0.003 sec)
+Step 200: loss = 0.27 (0.002 sec)
+Step 300: loss = 0.18 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.13 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.06 (0.003 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 0, 1: 5, 'all': 5}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 0, 1: 5, 'all': 5}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 0, 1: 5, 'all': 5}}
+Step 0: loss = 0.60 (0.008 sec)
+Step 100: loss = 0.43 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.08 (0.002 sec)
+Step 500: loss = 0.08 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.03 (0.003 sec)
+Training Data Eval:
+Step 0: loss = 0.73 (0.009 sec)
+Step 100: loss = 0.44 (0.003 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.22 (0.002 sec)
+Step 400: loss = 0.10 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.10 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.09 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.07 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.05 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.04 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.02 (0.002 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 0: loss = 0.68 (0.008 sec)
+Step 100: loss = 0.47 (0.002 sec)
+Step 200: loss = 0.33 (0.002 sec)
+Step 300: loss = 0.20 (0.002 sec)
+Step 400: loss = 0.14 (0.003 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.39 (0.002 sec)
+Step 200: loss = 0.27 (0.002 sec)
+Step 300: loss = 0.18 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 39, 1: 0, 'all': 39}, 1: {0: 0, 1: 11, 'all': 11}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 4, 1: 0, 'all': 4}, 1: {0: 1, 1: 5, 'all': 6}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 4, 1: 0, 'all': 4}, 1: {0: 0, 1: 6, 'all': 6}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.00 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.003 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.00 (0.002 sec)
+Step 2900: loss = 0.00 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.36 (0.002 sec)
+Step 200: loss = 0.32 (0.002 sec)
+Step 300: loss = 0.23 (0.002 sec)
+Step 400: loss = 0.18 (0.002 sec)
+Step 500: loss = 0.17 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.10 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.06 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.03 (0.003 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.04 (0.002 sec)
+Step 1900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 'all': 35, 1: 0}, 1: {0: 0, 'all': 15, 1: 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 2000: loss = 0.02 (0.002 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.02 (0.002 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.02 (0.003 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.02 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.39 (0.002 sec)
+Step 200: loss = 0.29 (0.002 sec)
+Step 300: loss = 0.14 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.06 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.32 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.09 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.04 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 1, 'all': 3, 1: 2}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.00 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.42 (0.002 sec)
+Step 200: loss = 0.22 (0.002 sec)
+Step 300: loss = 0.16 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.06 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.02 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.01 (0.002 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.01 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.00 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.66 (0.009 sec)
+Step 100: loss = 0.31 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.18 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 'all': 36, 1: 0}, 1: {0: 0, 'all': 14, 1: 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 0, 'all': 3, 1: 3}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.003 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 'all': 6, 1: 0}, 1: {0: 0, 'all': 4, 1: 4}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 'all': 35, 1: 0}, 1: {0: 0, 'all': 15, 1: 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 'all': 6, 1: 0}, 1: {0: 0, 'all': 4, 1: 4}}
+Step 0: loss = 0.66 (0.009 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.23 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.11 (0.002 sec)
+Step 500: loss = 0.06 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.00 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.00 (0.002 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 0: loss = 0.72 (0.009 sec)
+Step 100: loss = 0.46 (0.002 sec)
+Step 200: loss = 0.20 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.05 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 1, 1: 0, 'all': 1}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.01 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 32, 1: 0, 'all': 32}, 1: {0: 0, 1: 18, 'all': 18}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 1, 1: 1, 'all': 2}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 1, 1: 1, 'all': 2}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.41 (0.002 sec)
+Step 200: loss = 0.31 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.12 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 1, 1: 1, 'all': 2}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.34 (0.002 sec)
+Step 200: loss = 0.29 (0.002 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.12 (0.003 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.10 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.02 (0.003 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.65 (0.008 sec)
+Step 100: loss = 0.38 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.11 (0.002 sec)
+Step 500: loss = 0.12 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.07 (0.002 sec)
+Step 900: loss = 0.08 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.05 (0.002 sec)
+Step 1100: loss = 0.05 (0.003 sec)
+Step 1200: loss = 0.05 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.05 (0.002 sec)
+Step 1500: loss = 0.04 (0.002 sec)
+Step 1600: loss = 0.03 (0.003 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.03 (0.002 sec)
+Step 2200: loss = 0.03 (0.002 sec)
+Step 2300: loss = 0.03 (0.002 sec)
+Step 2400: loss = 0.03 (0.002 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.02 (0.002 sec)
+Step 2700: loss = 0.02 (0.002 sec)
+Step 2800: loss = 0.02 (0.002 sec)
+Step 2900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.38 (0.002 sec)
+Step 200: loss = 0.18 (0.002 sec)
+Step 300: loss = 0.18 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.003 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 1, 1: 4, 'all': 5}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.37 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.08 (0.002 sec)
+Step 500: loss = 0.08 (0.003 sec)
+Step 600: loss = 0.05 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 39, 1: 0, 'all': 39}, 1: {0: 0, 1: 11, 'all': 11}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 1, 1: 4, 'all': 5}}
+Step 1000: loss = 0.02 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.01 (0.002 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.01 (0.003 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.66 (0.008 sec)
+Step 100: loss = 0.28 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.22 (0.003 sec)
+Step 400: loss = 0.17 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.07 (0.003 sec)
+Step 800: loss = 0.07 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 'all': 36, 1: 0}, 1: {0: 0, 'all': 14, 1: 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 0, 'all': 3, 1: 3}}
+Step 1000: loss = 0.07 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.05 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.03 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 'all': 36, 1: 0}, 1: {0: 0, 'all': 14, 1: 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 2000: loss = 0.03 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.02 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.02 (0.002 sec)
+Step 2700: loss = 0.02 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 0: loss = 0.70 (0.008 sec)
+Step 100: loss = 0.37 (0.002 sec)
+Step 200: loss = 0.32 (0.002 sec)
+Step 300: loss = 0.23 (0.002 sec)
+Step 400: loss = 0.07 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.12 (0.003 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.10 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.05 (0.002 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.05 (0.002 sec)
+Step 1500: loss = 0.04 (0.002 sec)
+Step 1600: loss = 0.04 (0.002 sec)
+Step 1700: loss = 0.05 (0.002 sec)
+Step 1800: loss = 0.04 (0.002 sec)
+Step 1900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 2000: loss = 0.03 (0.002 sec)
+Step 2100: loss = 0.03 (0.003 sec)
+Step 2200: loss = 0.03 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.03 (0.002 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.03 (0.002 sec)
+Step 2700: loss = 0.02 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 0: loss = 0.68 (0.008 sec)
+Step 100: loss = 0.43 (0.003 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.06 (0.003 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.01 (0.003 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.003 sec)
+Step 1900: loss = 0.01 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.003 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.003 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 0: loss = 0.68 (0.008 sec)
+Step 100: loss = 0.34 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.19 (0.002 sec)
+Step 400: loss = 0.09 (0.002 sec)
+Step 500: loss = 0.09 (0.003 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 8  Precision @ 1: 0.8000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 2, 1: 1, 'all': 3}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.003 sec)
+Step 1400: loss = 0.01 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 8  Precision @ 1: 0.8000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 2, 1: 2, 'all': 4}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.00 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 0: loss = 0.68 (0.009 sec)
+Step 100: loss = 0.32 (0.002 sec)
+Step 200: loss = 0.22 (0.003 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.15 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 'all': 35, 1: 0}, 1: {0: 0, 'all': 15, 1: 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 0, 'all': 3, 1: 3}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.02 (0.003 sec)
+Step 1600: loss = 0.02 (0.003 sec)
+Step 1700: loss = 0.02 (0.003 sec)
+Step 1800: loss = 0.02 (0.003 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 'all': 6, 1: 0}, 1: {0: 0, 'all': 4, 1: 4}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.003 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.003 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 'all': 36, 1: 0}, 1: {0: 0, 'all': 14, 1: 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 0: loss = 0.65 (0.008 sec)
+Step 100: loss = 0.24 (0.002 sec)
+Step 200: loss = 0.22 (0.002 sec)
+Step 300: loss = 0.18 (0.002 sec)
+Step 400: loss = 0.11 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.04 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 31, 1: 0, 'all': 31}, 1: {0: 0, 1: 19, 'all': 19}}
+Test Data Eval:
+Step 0: loss = 0.70 (0.008 sec)
+Step 100: loss = 0.44 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.19 (0.002 sec)
+Step 400: loss = 0.16 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.003 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 32, 1: 0, 'all': 32}, 1: {0: 0, 1: 18, 'all': 18}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.71 (0.008 sec)
+Step 100: loss = 0.34 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.18 (0.003 sec)
+Step 400: loss = 0.16 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 1000: loss = 0.05 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 31, 1: 0, 'all': 31}, 1: {0: 0, 1: 19, 'all': 19}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 0: loss = 0.71 (0.008 sec)
+Step 100: loss = 0.42 (0.002 sec)
+Step 200: loss = 0.30 (0.002 sec)
+Step 300: loss = 0.20 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.32 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.05 (0.003 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.45 (0.002 sec)
+Step 200: loss = 0.22 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.003 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 0: loss = 0.74 (0.008 sec)
+Step 100: loss = 0.41 (0.002 sec)
+Step 200: loss = 0.27 (0.002 sec)
+Step 300: loss = 0.22 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.05 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.04 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.02 (0.003 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 2000: loss = 0.02 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.003 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 1, 1: 4, 'all': 5}}
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.46 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.13 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.06 (0.003 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.05 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.05 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.03 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 2000: loss = 0.03 (0.002 sec)
+Step 2100: loss = 0.03 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.03 (0.002 sec)
+Step 2400: loss = 0.02 (0.002 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.02 (0.002 sec)
+Step 2700: loss = 0.02 (0.002 sec)
+Step 2800: loss = 0.02 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.45 (0.002 sec)
+Step 200: loss = 0.27 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 'all': 38, 1: 0}, 1: {0: 0, 'all': 12, 1: 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 5, 'all': 5, 1: 0}, 1: {0: 1, 'all': 5, 1: 4}}
+Step 1000: loss = 0.02 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.73 (0.009 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.13 (0.002 sec)
+Step 600: loss = 0.06 (0.003 sec)
+Step 700: loss = 0.10 (0.003 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 1000: loss = 0.07 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.05 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.04 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 2000: loss = 0.03 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.03 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.02 (0.002 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 32, 'all': 32, 1: 0}, 1: {0: 0, 'all': 18, 1: 18}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 0: loss = 0.71 (0.009 sec)
+Step 100: loss = 0.44 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.12 (0.003 sec)
+Step 500: loss = 0.08 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.05 (0.003 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 1000: loss = 0.03 (0.002 sec)
+Step 1100: loss = 0.02 (0.003 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 1, 1: 1, 'all': 2}}
+Step 0: loss = 0.76 (0.009 sec)
+Step 100: loss = 0.43 (0.002 sec)
+Step 200: loss = 0.22 (0.003 sec)
+Step 300: loss = 0.14 (0.002 sec)
+Step 400: loss = 0.09 (0.002 sec)
+Step 500: loss = 0.05 (0.002 sec)
+Step 600: loss = 0.04 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 1000: loss = 0.02 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.01 (0.003 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.01 (0.003 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.00 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.00 (0.002 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.00 (0.002 sec)
+Step 2900: loss = 0.00 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 0: loss = 0.71 (0.009 sec)
+Step 100: loss = 0.39 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 1, 1: 0, 'all': 1}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.003 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.43 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.09 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.07 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.05 (0.002 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.03 (0.003 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 2000: loss = 0.02 (0.002 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.65 (0.008 sec)
+Step 100: loss = 0.38 (0.002 sec)
+Step 200: loss = 0.21 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.06 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.03 (0.002 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.01 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.71 (0.008 sec)
+Step 100: loss = 0.44 (0.002 sec)
+Step 200: loss = 0.29 (0.002 sec)
+Step 300: loss = 0.22 (0.002 sec)
+Step 400: loss = 0.15 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.06 (0.003 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.02 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 0, 1: 5, 'all': 5}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.39 (0.002 sec)
+Step 200: loss = 0.20 (0.002 sec)
+Step 300: loss = 0.12 (0.002 sec)
+Step 400: loss = 0.11 (0.002 sec)
+Step 500: loss = 0.08 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.29 (0.002 sec)
+Step 200: loss = 0.23 (0.002 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.18 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.10 (0.002 sec)
+Step 900: loss = 0.08 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 1000: loss = 0.07 (0.003 sec)
+Step 1100: loss = 0.07 (0.002 sec)
+Step 1200: loss = 0.04 (0.003 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.04 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 32, 1: 0, 'all': 32}, 1: {0: 0, 1: 18, 'all': 18}}
+Test Data Eval:
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.47 (0.002 sec)
+Step 200: loss = 0.23 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.47 (0.002 sec)
+Step 200: loss = 0.32 (0.002 sec)
+Step 300: loss = 0.16 (0.002 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.07 (0.003 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 1, 1: 1, 'all': 2}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 1, 1: 1, 'all': 2}}
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.37 (0.002 sec)
+Step 200: loss = 0.20 (0.002 sec)
+Step 300: loss = 0.19 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.003 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.73 (0.008 sec)
+Step 100: loss = 0.44 (0.002 sec)
+Step 200: loss = 0.22 (0.002 sec)
+Step 300: loss = 0.20 (0.002 sec)
+Step 400: loss = 0.09 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.01 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.003 sec)
+Step 1700: loss = 0.01 (0.003 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.003 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.00 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.65 (0.009 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.24 (0.002 sec)
+Step 400: loss = 0.17 (0.002 sec)
+Step 500: loss = 0.13 (0.002 sec)
+Step 600: loss = 0.11 (0.002 sec)
+Step 700: loss = 0.08 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.05 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 0: loss = 0.66 (0.008 sec)
+Step 100: loss = 0.47 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.10 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.08 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.70 (0.008 sec)
+Step 100: loss = 0.38 (0.002 sec)
+Step 200: loss = 0.26 (0.003 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.11 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.05 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 0, 1: 5, 'all': 5}}
+Step 1000: loss = 0.03 (0.002 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.003 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 0: loss = 0.76 (0.008 sec)
+Step 100: loss = 0.36 (0.002 sec)
+Step 200: loss = 0.21 (0.002 sec)
+Step 300: loss = 0.21 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.03 (0.003 sec)
+Step 1600: loss = 0.02 (0.003 sec)
+Step 1700: loss = 0.02 (0.003 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 1, 'all': 1, 1: 0}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.02 (0.003 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.003 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 32, 'all': 32, 1: 0}, 1: {0: 0, 'all': 18, 1: 18}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 0: loss = 0.70 (0.008 sec)
+Step 100: loss = 0.41 (0.002 sec)
+Step 200: loss = 0.20 (0.002 sec)
+Step 300: loss = 0.16 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.03 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.003 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.00 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 0: loss = 0.67 (0.009 sec)
+Step 100: loss = 0.45 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.22 (0.002 sec)
+Step 400: loss = 0.16 (0.003 sec)
+Step 500: loss = 0.07 (0.002 sec)
+Step 600: loss = 0.04 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.06 (0.003 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.003 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.003 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.67 (0.009 sec)
+Step 100: loss = 0.36 (0.002 sec)
+Step 200: loss = 0.30 (0.002 sec)
+Step 300: loss = 0.19 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.12 (0.002 sec)
+Step 600: loss = 0.11 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.07 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.03 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.02 (0.002 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.02 (0.002 sec)
+Step 2700: loss = 0.02 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.42 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.14 (0.002 sec)
+Step 400: loss = 0.16 (0.002 sec)
+Step 500: loss = 0.09 (0.003 sec)
+Step 600: loss = 0.12 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 0, 'all': 3, 1: 3}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.04 (0.003 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.04 (0.002 sec)
+Step 1500: loss = 0.04 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 2000: loss = 0.03 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 0, 'all': 3, 1: 3}}
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.37 (0.002 sec)
+Step 200: loss = 0.30 (0.003 sec)
+Step 300: loss = 0.19 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.70 (0.008 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.10 (0.002 sec)
+Step 500: loss = 0.08 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.01 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.47 (0.002 sec)
+Step 200: loss = 0.22 (0.002 sec)
+Step 300: loss = 0.19 (0.002 sec)
+Step 400: loss = 0.16 (0.002 sec)
+Step 500: loss = 0.12 (0.002 sec)
+Step 600: loss = 0.11 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.07 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 1000: loss = 0.06 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.06 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.04 (0.002 sec)
+Step 1700: loss = 0.04 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.02 (0.002 sec)
+Step 2500: loss = 0.02 (0.002 sec)
+Step 2600: loss = 0.02 (0.002 sec)
+Step 2700: loss = 0.02 (0.002 sec)
+Step 2800: loss = 0.02 (0.002 sec)
+Step 2900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.71 (0.008 sec)
+Step 100: loss = 0.43 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.16 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.08 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.003 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 0, 1: 5, 'all': 5}}
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.47 (0.002 sec)
+Step 200: loss = 0.28 (0.002 sec)
+Step 300: loss = 0.15 (0.003 sec)
+Step 400: loss = 0.15 (0.002 sec)
+Step 500: loss = 0.09 (0.002 sec)
+Step 600: loss = 0.05 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 1000: loss = 0.02 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.00 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 0: loss = 0.74 (0.008 sec)
+Step 100: loss = 0.44 (0.002 sec)
+Step 200: loss = 0.29 (0.002 sec)
+Step 300: loss = 0.22 (0.002 sec)
+Step 400: loss = 0.17 (0.002 sec)
+Step 500: loss = 0.10 (0.003 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.10 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 1, 'all': 3, 1: 2}}
+Step 1000: loss = 0.06 (0.002 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.03 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 1, 'all': 2, 1: 1}}
+Step 2000: loss = 0.01 (0.002 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.36 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.06 (0.002 sec)
+Step 600: loss = 0.06 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.68 (0.008 sec)
+Step 100: loss = 0.39 (0.002 sec)
+Step 200: loss = 0.27 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.11 (0.002 sec)
+Step 500: loss = 0.14 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 1: 0, 'all': 33}, 1: {0: 0, 1: 17, 'all': 17}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.02 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.003 sec)
+Step 1500: loss = 0.03 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 1, 1: 1, 'all': 2}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.00 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 1, 1: 2, 'all': 3}}
+Step 0: loss = 0.74 (0.008 sec)
+Step 100: loss = 0.30 (0.002 sec)
+Step 200: loss = 0.28 (0.002 sec)
+Step 300: loss = 0.24 (0.002 sec)
+Step 400: loss = 0.19 (0.002 sec)
+Step 500: loss = 0.13 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.07 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 'all': 36, 1: 0}, 1: {0: 0, 'all': 14, 1: 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 1, 'all': 2, 1: 1}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.04 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.03 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 'all': 36, 1: 0}, 1: {0: 0, 'all': 14, 1: 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 1, 'all': 3, 1: 2}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.02 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.02 (0.002 sec)
+Step 2400: loss = 0.01 (0.003 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.02 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 1, 'all': 3, 1: 2}}
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.42 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.10 (0.003 sec)
+Step 500: loss = 0.05 (0.002 sec)
+Step 600: loss = 0.04 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.01 (0.003 sec)
+Step 1100: loss = 0.01 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.01 (0.003 sec)
+Step 1500: loss = 0.01 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.00 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.00 (0.002 sec)
+Step 2500: loss = 0.00 (0.002 sec)
+Step 2600: loss = 0.00 (0.002 sec)
+Step 2700: loss = 0.00 (0.002 sec)
+Step 2800: loss = 0.00 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 0: loss = 0.68 (0.008 sec)
+Step 100: loss = 0.43 (0.002 sec)
+Step 200: loss = 0.29 (0.002 sec)
+Step 300: loss = 0.20 (0.002 sec)
+Step 400: loss = 0.15 (0.002 sec)
+Step 500: loss = 0.07 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 8  Precision @ 1: 0.8000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 2, 1: 2, 'all': 4}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 39, 1: 0, 'all': 39}, 1: {0: 0, 1: 11, 'all': 11}}
+Test Data Eval:
+  Num examples: 10  Num correct: 8  Precision @ 1: 0.8000
+ Recall:  {0: {0: 4, 1: 0, 'all': 4}, 1: {0: 2, 1: 4, 'all': 6}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.003 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 39, 1: 0, 'all': 39}, 1: {0: 0, 1: 11, 'all': 11}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 5, 1: 0, 'all': 5}, 1: {0: 1, 1: 4, 'all': 5}}
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.42 (0.002 sec)
+Step 200: loss = 0.23 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.09 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 'all': 35, 1: 0}, 1: {0: 0, 'all': 15, 1: 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 'all': 6, 1: 0}, 1: {0: 0, 'all': 4, 1: 4}}
+Step 1000: loss = 0.05 (0.003 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.003 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 'all': 35, 1: 0}, 1: {0: 0, 'all': 15, 1: 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 0, 'all': 3, 1: 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 'all': 35, 1: 0}, 1: {0: 0, 'all': 15, 1: 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 7, 'all': 7, 1: 0}, 1: {0: 1, 'all': 3, 1: 2}}
+Step 0: loss = 0.69 (0.009 sec)
+Step 100: loss = 0.49 (0.002 sec)
+Step 200: loss = 0.21 (0.002 sec)
+Step 300: loss = 0.22 (0.002 sec)
+Step 400: loss = 0.13 (0.002 sec)
+Step 500: loss = 0.13 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.09 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.06 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.07 (0.003 sec)
+Step 1100: loss = 0.05 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.04 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.02 (0.002 sec)
+Step 1900: loss = 0.02 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 1: 0, 'all': 9}, 1: {0: 0, 1: 1, 'all': 1}}
+Step 2000: loss = 0.02 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.02 (0.002 sec)
+Step 2300: loss = 0.02 (0.003 sec)
+Step 2400: loss = 0.02 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.02 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 1: 0, 'all': 34}, 1: {0: 0, 1: 16, 'all': 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 0: loss = 0.73 (0.009 sec)
+Step 100: loss = 0.47 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.10 (0.002 sec)
+Step 500: loss = 0.08 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 0, 1: 4, 'all': 4}}
+Step 1000: loss = 0.02 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.01 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.003 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.00 (0.003 sec)
+Step 2800: loss = 0.00 (0.002 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 38, 1: 0, 'all': 38}, 1: {0: 0, 1: 12, 'all': 12}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 0: loss = 0.69 (0.008 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.15 (0.002 sec)
+Step 400: loss = 0.11 (0.002 sec)
+Step 500: loss = 0.11 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.04 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 'all': 35, 1: 0}, 1: {0: 0, 'all': 15, 1: 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 1000: loss = 0.04 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.04 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.03 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 32, 'all': 32, 1: 0}, 1: {0: 0, 'all': 18, 1: 18}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 'all': 8, 1: 0}, 1: {0: 0, 'all': 2, 1: 2}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.003 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.01 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.01 (0.003 sec)
+Step 2900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 34, 'all': 34, 1: 0}, 1: {0: 0, 'all': 16, 1: 16}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 0: loss = 0.67 (0.008 sec)
+Step 100: loss = 0.33 (0.002 sec)
+Step 200: loss = 0.31 (0.002 sec)
+Step 300: loss = 0.13 (0.002 sec)
+Step 400: loss = 0.10 (0.002 sec)
+Step 500: loss = 0.10 (0.003 sec)
+Step 600: loss = 0.05 (0.002 sec)
+Step 700: loss = 0.06 (0.003 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.68 (0.009 sec)
+Step 100: loss = 0.33 (0.002 sec)
+Step 200: loss = 0.25 (0.002 sec)
+Step 300: loss = 0.22 (0.003 sec)
+Step 400: loss = 0.12 (0.002 sec)
+Step 500: loss = 0.08 (0.002 sec)
+Step 600: loss = 0.05 (0.002 sec)
+Step 700: loss = 0.07 (0.002 sec)
+Step 800: loss = 0.05 (0.002 sec)
+Step 900: loss = 0.03 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 32, 'all': 32, 1: 0}, 1: {0: 0, 'all': 18, 1: 18}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 9, 'all': 9, 1: 0}, 1: {0: 0, 'all': 1, 1: 1}}
+Step 1000: loss = 0.03 (0.002 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.03 (0.002 sec)
+Step 1300: loss = 0.02 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.02 (0.003 sec)
+Step 1600: loss = 0.02 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.003 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 33, 'all': 33, 1: 0}, 1: {0: 0, 'all': 17, 1: 17}}
+Test Data Eval:
+Step 0: loss = 0.70 (0.009 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.26 (0.002 sec)
+Step 300: loss = 0.17 (0.002 sec)
+Step 400: loss = 0.14 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.08 (0.002 sec)
+Step 700: loss = 0.05 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+Step 0: loss = 0.75 (0.008 sec)
+Step 100: loss = 0.38 (0.002 sec)
+Step 200: loss = 0.29 (0.002 sec)
+Step 300: loss = 0.18 (0.002 sec)
+Step 400: loss = 0.12 (0.003 sec)
+Step 500: loss = 0.10 (0.003 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.04 (0.002 sec)
+Step 800: loss = 0.03 (0.002 sec)
+Step 900: loss = 0.05 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 36, 1: 0, 'all': 36}, 1: {0: 0, 1: 14, 'all': 14}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 1000: loss = 0.03 (0.003 sec)
+Step 1100: loss = 0.03 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.01 (0.002 sec)
+Step 1400: loss = 0.02 (0.002 sec)
+Step 1500: loss = 0.01 (0.003 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.01 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 7, 1: 0, 'all': 7}, 1: {0: 0, 1: 3, 'all': 3}}
+Step 2000: loss = 0.01 (0.003 sec)
+Step 2100: loss = 0.01 (0.002 sec)
+Step 2200: loss = 0.01 (0.002 sec)
+Step 2300: loss = 0.01 (0.002 sec)
+Step 2400: loss = 0.01 (0.002 sec)
+Step 2500: loss = 0.01 (0.002 sec)
+Step 2600: loss = 0.00 (0.002 sec)
+Step 2700: loss = 0.01 (0.002 sec)
+Step 2800: loss = 0.00 (0.002 sec)
+Step 2900: loss = 0.00 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 35, 1: 0, 'all': 35}, 1: {0: 0, 1: 15, 'all': 15}}
+Test Data Eval:
+  Num examples: 10  Num correct: 10  Precision @ 1: 1.0000
+ Recall:  {0: {0: 8, 1: 0, 'all': 8}, 1: {0: 0, 1: 2, 'all': 2}}
+Step 0: loss = 0.67 (0.009 sec)
+Step 100: loss = 0.40 (0.002 sec)
+Step 200: loss = 0.24 (0.002 sec)
+Step 300: loss = 0.19 (0.002 sec)
+Step 400: loss = 0.15 (0.002 sec)
+Step 500: loss = 0.10 (0.002 sec)
+Step 600: loss = 0.07 (0.002 sec)
+Step 700: loss = 0.06 (0.002 sec)
+Step 800: loss = 0.06 (0.002 sec)
+Step 900: loss = 0.04 (0.002 sec)
+Training Data Eval:
+  Num examples: 50  Num correct: 50  Precision @ 1: 1.0000
+ Recall:  {0: {0: 37, 1: 0, 'all': 37}, 1: {0: 0, 1: 13, 'all': 13}}
+Test Data Eval:
+  Num examples: 10  Num correct: 9  Precision @ 1: 0.9000
+ Recall:  {0: {0: 6, 1: 0, 'all': 6}, 1: {0: 1, 1: 3, 'all': 4}}
+Step 1000: loss = 0.04 (0.002 sec)
+Step 1100: loss = 0.04 (0.002 sec)
+Step 1200: loss = 0.02 (0.002 sec)
+Step 1300: loss = 0.03 (0.002 sec)
+Step 1400: loss = 0.01 (0.002 sec)
+Step 1500: loss = 0.02 (0.002 sec)
+Step 1600: loss = 0.01 (0.002 sec)
+Step 1700: loss = 0.02 (0.002 sec)
+Step 1800: loss = 0.01 (0.002 sec)
+Step 1900: loss = 0.01 (0.002 sec)
+Training Data Eval:

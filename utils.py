@@ -1,4 +1,4 @@
-from config     import configs, db_config
+from config     import db_config
 from datetime   import datetime
 from pprint     import pprint
 

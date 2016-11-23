@@ -2,39 +2,31 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from config import configs 
-
 import math
 import tensorflow as tf
 
-# The MNIST dataset has 10 classes, representing the digits 0 through 9.
-NUM_CLASSES = configs['classes']
-
-# The MNIST images are always 28x28 pixels.
-NUM_METRICS = configs['factors']
-
-
-def inference(metrics, hidden1_units, hidden2_units):
+def inference(metrics, hidden_units, NUM_METRICS, NUM_CLASSES):
   # Hidden 1
   with tf.name_scope('hidden1'):
     weights = tf.Variable(
-        tf.truncated_normal([NUM_METRICS, hidden1_units], stddev=1.0 / math.sqrt(float(NUM_METRICS))), name='weights')
-    biases = tf.Variable(tf.zeros([hidden1_units]), name='biases')
-    hidden1 = tf.nn.relu(tf.matmul(metrics, weights) + biases)
+        tf.truncated_normal([NUM_METRICS, hidden_units[0]], stddev=1.0 / math.sqrt(float(NUM_METRICS))), name='weights')
+    biases = tf.Variable(tf.zeros([hidden_units[0]]), name='biases')
+    hidden = tf.nn.relu(tf.matmul(metrics, weights) + biases)
 
-  # Hidden 2
-  with tf.name_scope('hidden2'):
-    weights = tf.Variable(
-        tf.truncated_normal([hidden1_units, hidden2_units], stddev=1.0 / math.sqrt(float(hidden1_units))), name='weights')
-    biases = tf.Variable(tf.zeros([hidden2_units]), name='biases')
-    hidden2 = tf.nn.relu(tf.matmul(hidden1, weights) + biases)
+  # Hidden layers
+  for num,size in enumerate(hidden_units[1:], 1):
+      with tf.name_scope('hidden%s' % str(num)):
+        weights = tf.Variable(
+            tf.truncated_normal([hidden_units[num-1], hidden_units[num]], stddev=1.0 / math.sqrt(float(hidden_units[num-1]))), name='weights')
+        biases = tf.Variable(tf.zeros([hidden_units[num]]), name='biases')
+        hidden = tf.nn.relu(tf.matmul(hidden, weights) + biases)
 
   # Linear
   with tf.name_scope('softmax_linear'):
     weights = tf.Variable(
-        tf.truncated_normal([hidden2_units, NUM_CLASSES], stddev=1.0 / math.sqrt(float(hidden2_units))), name='weights')
+        tf.truncated_normal([hidden_units[-1], NUM_CLASSES], stddev=1.0 / math.sqrt(float(hidden_units[-1]))), name='weights')
     biases = tf.Variable(tf.zeros([NUM_CLASSES]), name='biases')
-    logits = tf.matmul(hidden2, weights) + biases
+    logits = tf.matmul(hidden, weights) + biases
   return logits
 
 

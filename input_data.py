@@ -4,8 +4,6 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from config import configs 
-
 import gzip
 import numpy
 from six.moves import xrange  # pylint: disable=redefined-builtin
@@ -66,14 +64,14 @@ class DataSet(object):
     return self._metrics[start:end], self._labels[start:end]
 
 
-def read_data_sets(train_dir):
+def read_data_sets(train_dir, configs):
 
   all_data  = numpy.load(train_dir + '/dataset.npy')
   numpy.random.shuffle(all_data) 
   test_data = numpy.load(train_dir + '/testset.npy')
   numpy.random.shuffle(test_data) 
 
-  TRAIN_CNT = int(all_data.shape[0] * 0.8)
+  TRAIN_CNT = int(all_data.shape[0] * 0.75)
   VALIDATION_SIZE = 0
   train_metrics, train_labels = numpy.split(all_data[:TRAIN_CNT], [configs['factors']], 1)
   train_labels                = train_labels.reshape(1, len(train_labels))[0].astype(int)

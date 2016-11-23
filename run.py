@@ -2,29 +2,45 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from config import configs
 
 import os.path
 import time
+import json
+import sys
 import linear
 import input_data 
 
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
+import numpy as np
 
 
-# Basic model parameters as external flags.
+def load_configs(file_name):
+    with open(file_name, 'r') as fp:
+        return json.load(fp)['configs']
+
+
 flags = tf.app.flags
 FLAGS = flags.FLAGS
+
+configs = load_configs(sys.argv[1])
+hidden_units = configs['hidden_units']
+
 flags.DEFINE_float('learning_rate', configs['learning_rate'], 'Initial learning rate.')
 flags.DEFINE_integer('max_steps', configs['max_steps'], 'Number of steps to run trainer.')
-flags.DEFINE_integer('hidden1', configs['hidden1'], 'Number of units in hidden layer 1.')
-flags.DEFINE_integer('hidden2', configs['hidden2'], 'Number of units in hidden layer 2.')
 flags.DEFINE_integer('batch_size', configs['batch_size'], 'Batch size.  '
                      'Must divide evenly into the dataset sizes.')
 flags.DEFINE_string('train_dir', 'data', 'Directory to put the training data.')
 flags.DEFINE_string('num_class', configs['classes'], 'The number of classes.')
 flags.DEFINE_string('num_factors', configs['factors'], 'The length of input vectro.')
+flags.DEFINE_string('result_dir', './result_20161123/', 'The length of input vectro.')
+flags.DEFINE_string('train_result_file', configs['train_result_file'], 'Log file for result')
+flags.DEFINE_string('test_result_file', configs['test_result_file'], 'Log file for result')
+
+AVERAGE = {
+        FLAGS.result_dir + FLAGS.train_result_file: { 'sum': [0.0] * 11, 'cnt':0 },
+        FLAGS.result_dir + FLAGS.test_result_file: {'sum': [0.0] * 11, 'cnt': 0}
+}
 
 def placeholder_inputs(batch_size):
   # Note that the shapes of the placeholders match the shapes of the full
@@ -50,31 +66,71 @@ def do_eval(sess,
             eval_correct,
             metrics_placeholder,
             labels_placeholder,
-            data_set):
+            data_set,
+            file_name):
   # And run one epoch of eval.
   true_count = 0  # Counts the number of correct predictions.
   steps_per_epoch = data_set.num_examples // FLAGS.batch_size
   num_examples = steps_per_epoch * FLAGS.batch_size
   recall_all = {}
-  for step in xrange(steps_per_epoch):
-    feed_dict = fill_feed_dict(data_set,
-                               metrics_placeholder,
-                               labels_placeholder)
-    res = sess.run(eval_correct, feed_dict=feed_dict)
-    #true_count += sess.run(eval_correct, feed_dict=feed_dict)
-    tmp = recall(res[1].reshape(1, len(res[1]))[0], res[2])
-    for i in range(0,FLAGS.num_class):
-       if not i in recall_all: recall_all[i] = {}
-       for j in range(0,FLAGS.num_class):
-           if not j in recall_all[i]: recall_all[i][j] = 0
-           if not 'all' in recall_all[i]: recall_all[i]['all'] = 0
-           recall_all[i][j] += tmp[i][j]
-       recall_all[i]['all'] += tmp[i]['all']
-    true_count += res[0]
-  precision = true_count / num_examples
-  print('  Num examples: %d  Num correct: %d  Precision @ 1: %0.04f' %
-        (num_examples, true_count, precision))
-  print(' Recall: ', recall_all)
+  try:
+      for step in xrange(steps_per_epoch):
+        feed_dict = fill_feed_dict(data_set,
+                                   metrics_placeholder,
+                                   labels_placeholder)
+        res = sess.run(eval_correct, feed_dict=feed_dict)
+        #true_count += sess.run(eval_correct, feed_dict=feed_dict)
+        tmp = recall(res[1].reshape(1, len(res[1]))[0], res[2])
+        for i in range(0,FLAGS.num_class):
+           if not i in recall_all: recall_all[i] = {}
+           for j in range(0,FLAGS.num_class):
+               if not j in recall_all[i]: recall_all[i][j] = 0
+               if not 'all' in recall_all[i]: recall_all[i]['all'] = 0
+               recall_all[i][j] += tmp[i][j]
+           recall_all[i]['all'] += tmp[i]['all']
+        true_count += res[0]
+      precision = true_count / num_examples
+      if len(recall_all) == FLAGS.num_class:
+          res1 = []
+          for idx in range(0, FLAGS.num_class):
+              base = 0
+              for a,b in recall_all.items():
+                  base += b[idx] if a != idx else 0
+              base = base + recall_all[idx][idx] if base + recall_all[idx][idx] > 0 else 1
+              tmp  = {
+                    'rec': recall_all[idx][idx]/recall_all[idx]['all'],
+                    'pre': recall_all[idx][idx]/base
+              }
+              res1.append(tmp)
+          print(num_examples, true_count, precision)
+          print(recall_all)
+          print(res1)
+          with open(file_name, 'a') as fp:
+              fp.write(str(num_examples) + '\t' +
+                    str(true_count) + '\t' + 
+                    str(precision) + '\t' + 
+                    str(res1[0]['rec']) + '\t' + 
+                    str(res1[0]['pre']) + '\t' + 
+                    str(res1[1]['rec']) + '\t' + 
+                    str(res1[1]['pre']) + '\t' + 
+                    str(res1[2]['rec']) + '\t' + 
+                    str(res1[2]['pre']) + '\t' + 
+                    str(res1[3]['rec']) + '\t' + 
+                    str(res1[3]['pre']) + '\t' + '\n')
+          AVERAGE[file_name]['sum'][0] += num_examples
+          AVERAGE[file_name]['sum'][1] += true_count
+          AVERAGE[file_name]['sum'][2] += precision
+          AVERAGE[file_name]['sum'][3] += res1[0]['rec']
+          AVERAGE[file_name]['sum'][4] += res1[0]['pre']
+          AVERAGE[file_name]['sum'][5] += res1[1]['rec']
+          AVERAGE[file_name]['sum'][6] += res1[1]['pre']
+          AVERAGE[file_name]['sum'][7] += res1[2]['rec']
+          AVERAGE[file_name]['sum'][8] += res1[2]['pre']
+          AVERAGE[file_name]['sum'][9] += res1[3]['rec']
+          AVERAGE[file_name]['sum'][10] += res1[3]['pre']
+          AVERAGE[file_name]['cnt']    += 1
+  except Exception as e:
+    print(e)
 
 def recall(y, label):
     res = {}
@@ -88,10 +144,10 @@ def recall(y, label):
         res[v]['all'] += 1
     return res
 
-def run_training():
+def run_training(hidden_units):
   # Get the sets of metrics and labels for training, validation, and
   # test on MNIST.
-  data_sets = input_data.read_data_sets(FLAGS.train_dir)
+  data_sets = input_data.read_data_sets(FLAGS.train_dir, configs)
 
   # Tell TensorFlow that the model will be built into the default Graph.
   with tf.Graph().as_default():
@@ -100,8 +156,9 @@ def run_training():
 
     # Build a Graph that computes predictions from the inference model.
     logits = linear.inference(metrics_placeholder,
-                             FLAGS.hidden1,
-                             FLAGS.hidden2)
+                             hidden_units,
+                             FLAGS.num_factors,
+                             FLAGS.num_class)
 
     # Add to the Graph the Ops for loss calculation.
     loss = linear.loss(logits, labels_placeholder)
@@ -161,7 +218,7 @@ def run_training():
         summary_writer.flush()
 
       # Save a checkpoint and evaluate the model periodically.
-      if (step + 1) % 1000 == 0 or (step + 1) == FLAGS.max_steps:
+      if (step + 1) % 5000 == 0 or (step + 1) == FLAGS.max_steps:
         checkpoint_file = os.path.join(FLAGS.train_dir, 'checkpoint')
         saver.save(sess, checkpoint_file, global_step=step)
         # Evaluate against the training set.
@@ -170,26 +227,39 @@ def run_training():
                 eval_correct,
                 metrics_placeholder,
                 labels_placeholder,
-                data_sets.train)
-        # Evaluate against the validation set.
-        """
-        print('Validation Data Eval:')
-        do_eval(sess,
-                eval_correct,
-                metrics_placeholder,
-                labels_placeholder,
-                data_sets.validation)
-        """
+                data_sets.train,
+                FLAGS.result_dir + 
+                FLAGS.train_result_file)
         # Evaluate against the test set.
         print('Test Data Eval:')
         do_eval(sess,
                 eval_correct,
                 metrics_placeholder,
                 labels_placeholder,
-                data_sets.test)
+                data_sets.test,
+                FLAGS.result_dir + 
+                FLAGS.test_result_file)
 
 def main(_):
-  run_training()
+
+    header = 'samples\tcorrect\tacc\tpre1\trec1\tpre2\trec2\tpre3\trec3\tpre4\trec4\n'
+    with open(FLAGS.result_dir + FLAGS.test_result_file, 'w') as fp:
+        fp.write(header)
+    with open(FLAGS.result_dir + FLAGS.train_result_file, 'w') as fp:
+        fp.write(header)
+
+    run_training(hidden_units)
+    
+    with open(FLAGS.result_dir + FLAGS.test_result_file, 'a') as fp:
+        fp.write("\n\n")
+        fp.write("\t".join(
+            [str(x) for x in np.array(AVERAGE[FLAGS.result_dir + FLAGS.test_result_file]['sum']) / 
+             AVERAGE[FLAGS.result_dir + FLAGS.test_result_file]['cnt']]))
+    with open(FLAGS.result_dir + FLAGS.train_result_file, 'a') as fp:
+        fp.write("\n\n")
+        fp.write("\t".join(
+            [str(x) for x in np.array(AVERAGE[FLAGS.result_dir + FLAGS.train_result_file]['sum']) / 
+             AVERAGE[FLAGS.result_dir + FLAGS.train_result_file]['cnt']]))
 
 
 if __name__ == '__main__':

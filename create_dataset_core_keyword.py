@@ -8,14 +8,14 @@ conn = db.connect(**db_config)
 cursor = conn.cursor()
 
 def create_dataset():
-    SCORES = load_score_master()
     dataset, testset = [], []
+    SCORES  = load_score_master()
     core    = load_annotation('exploits.tsv')
-    line = Line('vuln_line_labeled.pickle')
+    K       = Keyword('keyword_master.txt', 4000)
     query = """
             SELECT software_list, score, access_vector, 
               access_complexity, authentication, confidentiality_impact, 
-              integrity_impact, availability_impact, id, exploit_type, entry_id
+              integrity_impact, availability_impact, id, exploit_type, entry_id, summary
             FROM vuln_analyze 
             WHERE exploit_type IS NOT NULL 
               AND entry_id IN ('%s')
@@ -31,11 +31,13 @@ def create_dataset():
         tmp[5] = float(SCORES['confidentiality_impact'][row[5]])
         tmp[6] = float(SCORES['integrity_impact'][row[6]])
         tmp[7] = float(SCORES['availability_impact'][row[7]])
-        #tmp.extend(line.get_line(row[8])) 
+        tmp.extend(K.get_vector(get_tokens(row[11])))
+        
         label = fetch_label(row[9], core[row[10]], 'core')
         if 1 in label:
             tmp.append(label.index(1))
             dataset.append(tmp)
+    '''
     query = """
             SELECT software_list, score, access_vector, 
               access_complexity, authentication, confidentiality_impact, 
@@ -60,11 +62,14 @@ def create_dataset():
         if 1 in label:
             tmp.append(label.index(1))
             testset.append(tmp)
+    '''
     cursor.close()
     conn.close()
+    '''
     testset = np.array(testset)
     np.random.shuffle(testset)
     np.save('data/testset.npy', testset)
+    '''
     dataset = np.array(dataset)
     np.random.shuffle(dataset)
     np.save('data/dataset.npy', dataset)

@@ -8,7 +8,7 @@ db_config = {
 }
 configs = {
     'classes': 4,
-    'factors': 8,
+    'factors': 4008,
     'max_steps': 6000,
     'hidden1': 128,
     'hidden2': 64,

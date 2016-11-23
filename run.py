@@ -27,15 +27,6 @@ flags.DEFINE_string('num_class', configs['classes'], 'The number of classes.')
 flags.DEFINE_string('num_factors', configs['factors'], 'The length of input vectro.')
 
 def placeholder_inputs(batch_size):
-  """Generate placeholder variables to represent the input tensors.
-  These placeholders are used as inputs by the rest of the model building
-  code and will be fed from the downloaded data in the .run() loop, below.
-  Args:
-    batch_size: The batch size will be baked into both placeholders.
-  Returns:
-    metrics_placeholder: Metrics placeholder.
-    labels_placeholder: Labels placeholder.
-  """
   # Note that the shapes of the placeholders match the shapes of the full
   # image and label tensors, except the first dimension is now batch_size
   # rather than the full size of the train or test data sets.
@@ -45,19 +36,6 @@ def placeholder_inputs(batch_size):
 
 
 def fill_feed_dict(data_set, metrics_pl, labels_pl):
-  """Fills the feed_dict for training the given step.
-  A feed_dict takes the form of:
-  feed_dict = {
-      <placeholder>: <tensor of values to be passed for placeholder>,
-      ....
-  }
-  Args:
-    data_set: The set of metircs and labels, from input_data.read_data_sets()
-    metrics_pl: The metrics placeholder, from placeholder_inputs().
-    labels_pl: The labels placeholder, from placeholder_inputs().
-  Returns:
-    feed_dict: The feed dictionary mapping from placeholders to values.
-  """
   # Create the feed_dict for the placeholders filled with the next
   # `batch size` examples.
   metrics_feed, labels_feed = data_set.next_batch(FLAGS.batch_size)
@@ -73,15 +51,6 @@ def do_eval(sess,
             metrics_placeholder,
             labels_placeholder,
             data_set):
-  """Runs one evaluation against the full epoch of data.
-  Args:
-    sess: The session in which the model has been trained.
-    eval_correct: The Tensor that returns the number of correct predictions.
-    metrics_placeholder: The metrics placeholder.
-    labels_placeholder: The labels placeholder.
-    data_set: The set of metrics and labels to evaluate, from
-      input_data.read_data_sets().
-  """
   # And run one epoch of eval.
   true_count = 0  # Counts the number of correct predictions.
   steps_per_epoch = data_set.num_examples // FLAGS.batch_size
@@ -120,7 +89,6 @@ def recall(y, label):
     return res
 
 def run_training():
-  """Train METRICS for a number of steps."""
   # Get the sets of metrics and labels for training, validation, and
   # test on MNIST.
   data_sets = input_data.read_data_sets(FLAGS.train_dir)

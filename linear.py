@@ -15,14 +15,6 @@ NUM_METRICS = configs['factors']
 
 
 def inference(metrics, hidden1_units, hidden2_units):
-  """Build the MNIST model up to where it may be used for inference.
-  Args:
-    metrics: Images placeholder, from inputs().
-    hidden1_units: Size of the first hidden layer.
-    hidden2_units: Size of the second hidden layer.
-  Returns:
-    softmax_linear: Output tensor with the computed logits.
-  """
   # Hidden 1
   with tf.name_scope('hidden1'):
     weights = tf.Variable(
@@ -47,13 +39,6 @@ def inference(metrics, hidden1_units, hidden2_units):
 
 
 def loss(logits, labels):
-  """Calculates the loss from the logits and the labels.
-  Args:
-    logits: Logits tensor, float - [batch_size, NUM_CLASSES].
-    labels: Labels tensor, int32 - [batch_size].
-  Returns:
-    loss: Loss tensor of type float.
-  """
   labels = tf.to_int64(labels)
   cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(logits, labels, name='xentropy')
   loss = tf.reduce_mean(cross_entropy, name='xentropy_mean')
@@ -61,17 +46,6 @@ def loss(logits, labels):
 
 
 def training(loss, learning_rate):
-  """Sets up the training Ops.
-  Creates a summarizer to track the loss over time in TensorBoard.
-  Creates an optimizer and applies the gradients to all trainable variables.
-  The Op returned by this function is what must be passed to the
-  `sess.run()` call to cause the model to train.
-  Args:
-    loss: Loss tensor, from loss().
-    learning_rate: The learning rate to use for gradient descent.
-  Returns:
-    train_op: The Op for training.
-  """
   # Add a scalar summary for the snapshot loss.
   tf.scalar_summary(loss.op.name, loss)
   # Create the gradient descent optimizer with the given learning rate.
@@ -85,15 +59,6 @@ def training(loss, learning_rate):
 
 
 def evaluation(logits, labels):
-  """Evaluate the quality of the logits at predicting the label.
-  Args:
-    logits: Logits tensor, float - [batch_size, NUM_CLASSES].
-    labels: Labels tensor, int32 - [batch_size], with values in the
-      range [0, NUM_CLASSES).
-  Returns:
-    A scalar int32 tensor with the number of examples (out of batch_size)
-    that were predicted correctly.
-  """
   # For a classifier model, we can use the in_top_k Op.
   # It returns a bool tensor with shape [batch_size] that is true for
   # the examples where the label is in the top k (here k=1)

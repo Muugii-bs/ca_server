@@ -1,13 +1,12 @@
 from config     import configs, db_config
 from datetime   import datetime
 from pprint     import pprint
-from utils      import Line
 
 import pymysql  as db
 import numpy    as np
 import operator
+import pickle 
 import nltk 
-import pickle
 import sys
 import json
 import re
@@ -20,7 +19,8 @@ black_list = [',', '.', ';', ':', '-', '~', '_', '?', '!', 'the', 'in',
               '{', '}', "''", "'", '"', '""', "``", '`', 'not', '..', ',,', 
               '.,', ',.', '--', '~~', '::', ';;', '+', '++', 'than', 'other',
               'it', 'its', 'for', 'along', 'be', 'it\'s', 'these', 'this',
-              'these', 'those', 'into', "'s"]
+              'these', 'those', 'into', "'s", '1', '2', '3', '4', '5', '6',
+              '7', '8', '9', '0', '&', '%', '#', '@']
 conn = db.connect(**db_config)
 cursor = conn.cursor()
 #}}}
@@ -81,6 +81,27 @@ def load_score_master():
         SCORES[row[0]][row[1]] = float(row[2])
     return SCORES
 
+class Keyword:
+
+    def __init__(self, file_name, cnt):
+        self.keywords = self.load_keyword_master(file_name, cnt)
+        self.size     = len(self.keywords)
+
+    def load_keyword_master(self, file_name, cnt):
+        keywords = {}
+        with open(file_name, 'r') as fp:
+            for num,line in enumerate(fp):
+                keywords[line.rstrip().split('\t')[0]] = num
+                if num + 1 == cnt: break
+        return keywords
+
+    def get_vector(self, tokens):
+        vec = [0] * self.size
+        for token in tokens:
+            if token in self.keywords:
+                vec[self.keywords[token]] += 1
+        return vec / np.linalg.norm([float(x) for x in vec])
+
 class Line:
     
     def __init__(self, file_name):
@@ -93,3 +114,4 @@ class Line:
 
     def get_line(self, id):
         return self.line[id]
+
